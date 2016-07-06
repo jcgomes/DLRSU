@@ -14,8 +14,8 @@ O diretório DLL contém as DLLs necessárias a incluir na compilação do insta
 Plataforma Linux: 
 - Instalar o qt-sdk (linux mint) ou Qt-devel (outras distribuições): sudo apt-get install qt-sdk
 - Baixar do site do Qt, a versão 5.5.0-2 (qt-opensource-linux-x64-5.5.0-2.run). Para instalar, seguir as etapas abaixo: 
-  1) sudo chmod 777 ./qt-opensource-linux-x64-5.5.0-2.run
-  2) ./qt-opensource-linux-x64-5.5.0-2.run
+  - sudo chmod 777 ./qt-opensource-linux-x64-5.5.0-2.run
+  - ./qt-opensource-linux-x64-5.5.0-2.run
 - Isto irá instalar a versão "Qt Creator (community)". Recomendo usar ela.
 
 Documentação de desenvolvimento:
