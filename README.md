@@ -8,7 +8,8 @@ ATENÇÃO:  Leia o Manual do usuário antes de tudo: https://github.com/lareso/D
 PARA BAIXAR O SOFTWARE (disponível para Windows e Linux): https://github.com/lareso/DLRSU/release
 
 # Informações para os desenvolvedores
-Plataforma Windows: 
+Plataforma Windows:
+
 O diretório DLL contém as DLLs necessárias a incluir na compilação do instalador do software (setup). Elas são encontradas do diretório de instalação do mingw (exemplo: "C:\Qt\5.5\mingw492_32\bin" e "C:\Qt\5.5\mingw492_32\plugins") e precisam ser da mesma versão em que o executável foi compilado. Neste caso, foi utilizado o Qt 5.5, mingw492 (32 bits). Caso você compile o código fonte com outra versão do Qt/mingw, substitua as DLLs.
 
 Plataforma Linux: 
@@ -19,9 +20,11 @@ Plataforma Linux:
 - Isto irá instalar a versão "Qt Creator (community)". Recomendo usar ela.
 
 Documentação de desenvolvimento:
+
 O software foi desenvolvido em C++, banco de dados sqlite, e precisa ser melhor documentado, principalmente quanto aos padrões de projeto, banco de dados, todo lists, etc.
 
 Lógica de negócio:
+
 Para compreender o funcionamento do sistema de pontuação criado no software é recomendado ler a dissertação/tese que deram origem a ele, pois trata-se de uma nova abordagem (metodologia) de hierarquização de impactos ambientais no Brasil. Ele foi desenvolvido na UFSC, caso estes documentos sejam publicados online, disponibilizaremos aqui os links.
 
 Cordialmente,
