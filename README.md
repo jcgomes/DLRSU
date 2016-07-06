@@ -25,7 +25,7 @@ O software foi desenvolvido em C++, banco de dados sqlite, e precisa ser melhor 
 
 Lógica de negócio:
 
-Para compreender o funcionamento do sistema de pontuação criado no software é recomendado ler a dissertação/tese que deram origem a ele, pois trata-se de uma nova abordagem (metodologia) de hierarquização de impactos ambientais no Brasil. Ele foi desenvolvido na UFSC, caso estes documentos sejam publicados online, disponibilizaremos aqui os links.
+Para compreender o funcionamento do sistema de pontuação criado no software é recomendado ler a dissertação/tese que deram origem a ele, pois trata-se de uma nova abordagem (metodologia) de hierarquização de impactos ambientais em lixões no Brasil. Ele foi desenvolvido na UFSC, caso estes documentos sejam publicados online, disponibilizaremos aqui os links.
 
 Cordialmente,
 
