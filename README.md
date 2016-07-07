@@ -3,9 +3,9 @@ Diagnostico de Lixões de Resíduos Sólidos Urbanos (DLRSU), é uma ferramenta 
 
 O software foi projetado e desenvolvido para ser fácil de uso e entendimento. As telas são todas padronizadas, ou seja, as telas de consulta possuem os mesmos objetos nos mesmos lugares, bem como as telas de cadastro.
 
-ATENÇÃO:  Leia o Manual do usuário antes de tudo: https://github.com/lareso/DLRSU/release/Manual.pdf
+ATENÇÃO:  Leia o Manual do usuário antes de tudo: https://github.com/lareso/DLRSU/tree/master/release/Manual.pdf
 
-PARA BAIXAR O SOFTWARE (disponível para Windows e Linux): https://github.com/lareso/DLRSU/release
+PARA BAIXAR O SOFTWARE (disponível para Windows e Linux): https://github.com/lareso/DLRSU/tree/master/release
 
 # Informações para os desenvolvedores
 Plataforma Windows:
