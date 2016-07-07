@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>708</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Diagnóstico de lixões de resíduos sólidos urbanos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/RLRSU.ico</normaloff>:/icons/RLRSU.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="windowTitle">
+    <string>Barra de ferramentas</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::AllToolBarAreas</set>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_municipios"/>
+   <addaction name="separator"/>
+   <addaction name="action_formCampo"/>
+   <addaction name="separator"/>
+   <addaction name="action_diagnostico"/>
+   <addaction name="separator"/>
+   <addaction name="action_cenarios"/>
+   <addaction name="separator"/>
+   <addaction name="action_manual_sistema"/>
+   <addaction name="separator"/>
+   <addaction name="action_sobre_sistema"/>
+   <addaction name="separator"/>
+   <addaction name="action_sair"/>
+  </widget>
+  <action name="action_niveis_impacto">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/grafico.png</normaloff>:/icons/grafico.png</iconset>
+   </property>
+   <property name="text">
+    <string>Níveis de impacto</string>
+   </property>
+  </action>
+  <action name="action_valores_situacoes">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/tabela.png</normaloff>:/icons/tabela.png</iconset>
+   </property>
+   <property name="text">
+    <string>Valores das situações</string>
+   </property>
+  </action>
+  <action name="action_municipios">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/municipios.png</normaloff>:/icons/municipios.png</iconset>
+   </property>
+   <property name="text">
+    <string>Municípios</string>
+   </property>
+  </action>
+  <action name="action_manual_sistema">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/ajuda.png</normaloff>:/icons/ajuda.png</iconset>
+   </property>
+   <property name="text">
+    <string>Manual do usuário</string>
+   </property>
+  </action>
+  <action name="action_sobre_sistema">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/sobre.png</normaloff>:/icons/sobre.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sobre o sistema</string>
+   </property>
+  </action>
+  <action name="action_diagnostico">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/diagnostico.png</normaloff>:/icons/diagnostico.png</iconset>
+   </property>
+   <property name="text">
+    <string>Diagnóstico</string>
+   </property>
+   <property name="toolTip">
+    <string>Diagnóstico</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_sair">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/fechar.png</normaloff>:/icons/fechar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sair do sistema</string>
+   </property>
+   <property name="toolTip">
+    <string>Sair do sistema</string>
+   </property>
+  </action>
+  <action name="action_formCampo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/doc.png</normaloff>:/icons/doc.png</iconset>
+   </property>
+   <property name="text">
+    <string>Formulário de campo não preenchido</string>
+   </property>
+  </action>
+  <action name="action_cenarios">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/cenarios.png</normaloff>:/icons/cenarios.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cenários</string>
+   </property>
+   <property name="toolTip">
+    <string>Cenários</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/adicionar.png</file>
+        <file>icons/ajuda.png</file>
+        <file>icons/ajuda-conteudo.svg</file>
+        <file>icons/ajuda-faq.svg</file>
+        <file>icons/ajuda-sobre.svg</file>
+        <file>icons/atualizar.png</file>
+        <file>icons/audio-editor.svg</file>
+        <file>icons/baobab.svg</file>
+        <file>icons/bkp.png</file>
+        <file>icons/Brasil.png</file>
+        <file>icons/cadeado.png</file>
+        <file>icons/cenarios.png</file>
+        <file>icons/check.svg</file>
+        <file>icons/config.png</file>
+        <file>icons/config.svg</file>
+        <file>icons/consultar.png</file>
+        <file>icons/diagnostico.png</file>
+        <file>icons/diagnostico.svg</file>
+        <file>icons/DLRSU.ico</file>
+        <file>icons/DLRSU.png</file>
+        <file>icons/doc.png</file>
+        <file>icons/doc.svg</file>
+        <file>icons/download.png</file>
+        <file>icons/download.svg</file>
+        <file>icons/email.png</file>
+        <file>icons/email.svg</file>
+        <file>icons/excluir.png</file>
+        <file>icons/excluir.svg</file>
+        <file>icons/fechar.png</file>
+        <file>icons/grafico.png</file>
+        <file>icons/home.svg</file>
+        <file>icons/hugin.svg</file>
+        <file>icons/midia-removivel.svg</file>
+        <file>icons/municipios.png</file>
+        <file>icons/print.png</file>
+        <file>icons/printer.svg</file>
+        <file>icons/relogio.svg</file>
+        <file>icons/salvar.png</file>
+        <file>icons/sobre.png</file>
+        <file>icons/tabela.png</file>
+        <file>icons/texto.svg</file>
+        <file>icons/usuario.png</file>
+        <file>icons/usuarios.png</file>
+    </qresource>
+</RCC>
