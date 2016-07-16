@@ -5,7 +5,9 @@ O software foi projetado e desenvolvido para ser fácil de uso e entendimento. A
 
 ATENÇÃO:  Leia o Manual do usuário antes de tudo: https://github.com/jcgomes/DLRSU/tree/master/release/Manual.pdf
 
-PARA BAIXAR O SOFTWARE (disponível para Windows e Linux): https://github.com/jcgomes/DLRSU/tree/master/release
+PARA BAIXAR O SOFTWARE 
+  - Plataforma Windows: https://github.com/jcgomes/DLRSU/blob/master/release/DLRSU_v1_Windows.exe?raw=true
+  - Plataforma Linux: https://github.com/jcgomes/DLRSU/blob/master/release/DLRSU_v1_Linux.tar.gz?raw=true
 
 # Informações para os desenvolvedores
 Plataforma Windows:
